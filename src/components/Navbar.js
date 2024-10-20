@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { TbWorldCode } from 'react-icons/tb';
+import Resume from './../assets/EsmatullahResume.pdf';
 
 function Navbar() {
     const [colorTheme, setColorTheme] = useState('light');
@@ -62,7 +63,9 @@ function Navbar() {
                             Contact
                         </a>
                     </ul>
+                    
                 )}
+                <a href={Resume} download className='py-2 px-5 bg-orange-600 rounded'>Download My CV</a>
                 <div className="flex">
                     <div className="tm:hidden sm:hidden absolute top-[2rem] right-[3.5rem]">
                         <GiHamburgerMenu
