@@ -16,7 +16,7 @@ function Main() {
                     <blockquote className="font-[800] text-[2rem] text-[#ec6e59;] mt-[-10px] lg:text-[2.4rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem]">
                         I'm
                         <span className="before:block mx-4 mb-6 mt-4 before:absolute before:-inset-2 before:-skew-y-[3deg] before:bg-[#ec6e59;] relative inline-block">
-                            <span className="relative text-[#fffffff0] dark:text-[#20262E]">Esmatullah "Mohammadi"</span>
+                            <span className="relative text-[#fffffff0] dark:text-[#20262E]">Esmatullah</span>
                         </span>
                     </blockquote>
                     <div className="h-10 mt-4">
