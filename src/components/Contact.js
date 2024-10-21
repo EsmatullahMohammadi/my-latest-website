@@ -38,21 +38,21 @@ function Contact() {
 
         <form className='flex flex-col gap-4 tm:w-full sm:w-full lg:w-[88%] ' ref={form} onSubmit={sendEmail}>
           <label>Name</label>
-          <input className='p-4 rounded-[4px] bg-[#e4e1e1fa] dark:bg-[#3d3e4b] h-[58px]'
+          <input className='p-4 rounded-[4px] bg-[#e4e1e1fa] dark:bg-[#3d3e4b] h-[45px] md:h-[58px] '
             placeholder='Name'
             type="text"
             name="name"
             required />
 
           <label>Email</label>
-          <input className='p-4 rounded-[4px]  bg-[#e4e1e1fa] dark:bg-[#3d3e4b] h-[58px]'
+          <input className='p-4 rounded-[4px]  bg-[#e4e1e1fa] dark:bg-[#3d3e4b] h-[45px] md:h-[58px] '
             placeholder='Email'
             type="email"
             name="email"
             required />
 
           <label>Subject</label>
-          <input className='p-4 rounded-[4px]  bg-[#e4e1e1fa] dark:bg-[#3d3e4b] h-[58px]'
+          <input className='p-4 rounded-[4px]  bg-[#e4e1e1fa] dark:bg-[#3d3e4b] h-[45px] md:h-[58px] '
             placeholder='Subject'
             type="text"
             name="subject"

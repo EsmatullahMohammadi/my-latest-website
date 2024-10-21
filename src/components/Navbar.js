@@ -40,7 +40,7 @@ function Navbar() {
                 {colorTheme === 'dark' ? (
                     <TbWorldCode alt="logo" className="h-[2vw] min-h-[35px] w-[7.8125vw] min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
                 ) : (
-                    <TbWorldCode className="h-[2w] min-h-[35px] w-[7.8125vw] min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
+                    <TbWorldCode alt="logo" className="h-[2w] min-h-[35px] w-[7.8125vw] lg:min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
                 )}
                 {!showMenu && (
                     <ul className="hidden tm:block sm:block md:flex font-[400] text-black dark:text-white dark:font-[300] text-custom-20 gap-[5rem] md:gap-[3rem] lg:gap-4rem">
@@ -65,7 +65,9 @@ function Navbar() {
                     </ul>
                     
                 )}
-                <a href={Resume} download className='py-2 px-5 bg-orange-600 rounded'>Download My CV</a>
+                <div class="flex">
+                    <a href={Resume} download className=' py-1 px-2 md:py-2 md:px-5 bg-orange-600 rounded lg:absolute lg:top-[1.7rem] lg:right-[3.5rem]'>Download CV</a>
+                </div>
                 <div className="flex">
                     <div className="tm:hidden sm:hidden absolute top-[2rem] right-[3.5rem]">
                         <GiHamburgerMenu

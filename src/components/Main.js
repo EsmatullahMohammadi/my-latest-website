@@ -1,7 +1,7 @@
 import React from 'react';
 // import Typed from 'react-typed';
 import myImage from './../assets/main_image.png';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiFillFacebook, AiFillInstagram, AiFillYoutube } from 'react-icons/ai';
 import Typewriter from './Typewriter';
 
 function Main() {
@@ -51,6 +51,15 @@ function Main() {
                             </a>
                             <a rel="noreferrer" href="https://github.com/EsmatullahMohammadi" target="_blank">
                                 <AiFillGithub size={40} className="cursor-pointer" />
+                            </a>
+                            <a rel="noreferrer" href="https://youtube.com/@esmatullahmohammadi9685?si=Fg..." target="_blank">
+                                <AiFillYoutube size={40} className="cursor-pointer" />
+                            </a>
+                            <a rel="noreferrer" href="https://www.facebook.com/mohammadi.esmatullah.7" target="_blank">
+                                <AiFillFacebook size={40} className="cursor-pointer" />
+                            </a>
+                            <a rel="noreferrer" href="https://www.instagram.com/esmatullah8995" target="_blank">
+                                <AiFillInstagram size={40} className="cursor-pointer" />
                             </a>
                         </div>
                     </div>
