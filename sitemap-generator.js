@@ -6,7 +6,7 @@ const links = [
   { url: '/', changefreq: 'daily', priority: 1.0 }, // تنها صفحه اصلی
 ];
 
-const sitemap = new SitemapStream({ hostname: 'https://www.esmatullah-mohammadi-weblog.vercel.app' });
+const sitemap = new SitemapStream({ hostname: 'https://esmatullah-mohammadi-weblog.vercel.app' });
 
 streamToPromise(sitemap)
   .then((data) => {
