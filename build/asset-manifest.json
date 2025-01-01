@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.07e1d166.css",
-    "main.js": "/static/js/main.3529b897.js",
-    "static/media/main_image.png": "/static/media/main_image.26d5f2fabf360e9caa1a.png",
+    "main.css": "/static/css/main.27f441cc.css",
+    "main.js": "/static/js/main.c81f4c13.js",
+    "static/media/main_image.png": "/static/media/main_image.e00b613f3dd1d2cef5e4.png",
+    "static/media/EsmatullahResume.pdf": "/static/media/EsmatullahResume.1b12c33df8c207e6a61d.pdf",
     "static/media/afghan job.png": "/static/media/afghan job.c2d08b29b52a0679dd82.png",
     "static/media/reactGame.jpg": "/static/media/reactGame.cebb6d1416d3411a8f61.jpg",
     "static/media/cipherAlgorithm.png": "/static/media/cipherAlgorithm.ceb4548e9bd3eb6dd2e4.png",
     "static/media/url.jpg": "/static/media/url.0708cbd5cf568f77d9f7.jpg",
     "index.html": "/index.html",
-    "main.07e1d166.css.map": "/static/css/main.07e1d166.css.map",
-    "main.3529b897.js.map": "/static/js/main.3529b897.js.map"
+    "main.27f441cc.css.map": "/static/css/main.27f441cc.css.map",
+    "main.c81f4c13.js.map": "/static/js/main.c81f4c13.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e1d166.css",
-    "static/js/main.3529b897.js"
+    "static/css/main.27f441cc.css",
+    "static/js/main.c81f4c13.js"
   ]
 }

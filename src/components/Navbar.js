@@ -40,7 +40,7 @@ function Navbar() {
                 {colorTheme === 'dark' ? (
                     <TbWorldCode alt="logo" className="h-[2vw] min-h-[35px] w-[7.8125vw] min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
                 ) : (
-                    <TbWorldCode alt="logo" className="h-[2w] min-h-[35px] w-[7.8125vw] lg:min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
+                    <TbWorldCode alt="logo" className="h-[2vw] min-h-[35px] w-[7.8125vw] lg:min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
                 )}
                 {!showMenu && (
                     <ul className="hidden tm:block sm:block md:flex font-[400] text-black dark:text-white dark:font-[300] text-custom-20 gap-[5rem] md:gap-[3rem] lg:gap-4rem">
