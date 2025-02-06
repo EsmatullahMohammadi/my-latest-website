@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { TbWorldCode } from 'react-icons/tb';
@@ -7,7 +7,7 @@ import Resume from './../assets/EsmatullahResume.pdf';
 function Navbar() {
     const [colorTheme, setColorTheme] = useState('light');
     const [showMenu, setShowMenu] = useState(false);
-
+    console.log(setColorTheme)
     const scrollToComponent = (componentId) => {
         const component = document.getElementById(componentId);
         if (component) {
@@ -32,7 +32,7 @@ function Navbar() {
         return () => {
             window.removeEventListener('resize', handleWindowResize);
         };
-    }, [showMenu]);
+    }, [showMenu, handleWindowResize]);
 
     return (
         <>

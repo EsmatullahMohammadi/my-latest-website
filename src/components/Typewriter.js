@@ -43,7 +43,7 @@ const Typewriter = () => {
         return () => clearTimeout(timeout);
       }
     }
-  }, [currentString, currentStringIndex, isTyping]);
+  }, [currentString, currentStringIndex, isTyping, strings]);
 
   return (
     <span className="font-[500] dark:font-[400] text-black dark:text-[#ec6e59;] text-[1.5rem] mb-2 sm:text-[2rem]">
